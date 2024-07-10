@@ -11,3 +11,10 @@ echo "All the argument are -: $@"
 #print number of argument
 
 echo "Number of argument are-:$#"
+
+#for lopping to access the value from argument 
+
+for filename in $@
+do
+	echo "Copy file name - $filename"
+done
