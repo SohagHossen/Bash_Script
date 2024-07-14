@@ -1,0 +1,14 @@
+#Automation script  
+#Script run in constant time and date 
+at 11:20 2 
+Then use script name and run 
+Exit user ctrl+d
+
+#Run all time  using cron 
+#show cron job run list 
+Crontab -l
+
+#Start cron job 
+crontab -e
+***** file location && file run command
+Like: cd /home/sohag/myscript && ./18-connectivity-check.sh
