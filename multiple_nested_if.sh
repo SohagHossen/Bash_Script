@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Define variables
 age=25
 income=50000
 education="graduate"
